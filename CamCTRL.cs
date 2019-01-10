@@ -12,7 +12,7 @@ public class CamCTRL : MonoBehaviour
 	void Start () 
 	{
 
-		camOffset = camTarget.transform.position + transform.position;
+		camOffset =  transform.position - camTarget.transform.position;
 
 	}
 	
